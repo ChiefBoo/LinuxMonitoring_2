@@ -1,0 +1,8 @@
+sudo systemctl start prometheus
+sudo systemctl start grafana-server
+sudo systemctl start node_exporter
+
+sudo systemctl start nginx
+#localhost:8080
+
+bash main.sh
